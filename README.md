@@ -1,3 +1,3 @@
 #Memory Game
 
-I am using HTML and TailwindCSS and Javascript
+It was created by HTML , TailwindCSS , Javascript
