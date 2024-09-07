@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="bg-gradient-to-r from-purple-500 to-pink-500 flex flex-col items-center justify-center h-screen relative">
+    <div id="welcome-page" class="flex flex-col items-center justify-center h-full gap-10">
+        <h1 class="text-4xl font-bold text-black mb-4 italic">Welcome to the Memory Game</h1>
+        <button id="start-game-button" class="px-6 py-3 bg-blue-400 text-black font-bold rounded-lg shadow-lg hover:bg-blue-600">Start the Game</button>
+    </div>
+    <div id="game-page" class="hidden flex-col items-center justify-center h-full">
+        <div id="timer" class="text-2xl text-white font-bold">Time: 00:00</div>
+        <div id="game-board" class="grid grid-cols-4 gap-2 mb-4">
+        </div>
+        <div id="win-message" >
+            <p class="text-4xl mb-4 font-bold">You won the game!</p>
+            <p id="win-time" class="text-xl"></p>
+        </div>
+        <button id="reset-button" class="px-4 py-2 bg-blue-500 font-bold text-white rounded-lg shadow-lg hover:bg-blue-700 ">Restart the Game</button>
+    </div>
+    
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
